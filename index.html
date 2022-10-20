@@ -48,27 +48,33 @@
       height: 100%;
     }
 
-    body main .img {
+    .img {
       display: flex;
       justify-content: center;
       align-items: center;
-      max-width: 50%;
-      width: 100%;
+      width: 50%;
       height: 100%;
-      overflow: hidden;
     }
 
     /* body main .img .box {
+      position: absolute;
       z-index: 1;
       margin-left: -3.7rem;
     } */
 
     body main .img .woman {
-      display: block;
-      position: sticky;
+      position: absolute;
       max-width: 30rem;
       width: 100%;
-      margin-left: -15rem;
+      margin-left: -7rem;
+    }
+
+    body main .img .background {
+      position: absolute;
+      max-width: 30rem;
+      width: 100%;
+      z-index: 0;
+      margin-left: -7rem;
     }
 
     .text {
@@ -155,11 +161,11 @@
 
 <body>
   <main>
+    <!-- <img class="box" src="/HTML/Cartão de FAQ/images/illustration-box-desktop.svg" alt="illustration-box-desktop.svg"> -->
     <section class="img">
-      <!-- <img class='background' src="/HTML/Cartão de FAQ/images/bg-pattern-desktop.svg" alt="bg-pattern-desktop.svg"> -->
-      <!-- <img class="box" src="/HTML/Cartão de FAQ/images/illustration-box-desktop.svg" alt="illustration-box-desktop.svg"> -->
       <img class="woman" src="/HTML/Cartão de FAQ/images/illustration-woman-online-desktop.svg"
         alt="illustration-woman-online-desktop.svg">
+      <img class='background' src="/HTML/Cartão de FAQ/images/bg-pattern-desktop.svg" alt="bg-pattern-desktop.svg">
     </section>
 
     <section class=" text">
