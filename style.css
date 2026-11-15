@@ -227,3 +227,10 @@ body main .woman_background .background_mobile {
         height: 100%;
     }
 }
+
+/* board22 visit-count */
+.attribution #va-visits, footer #va-visits {
+  font-size: inherit;
+  color: inherit;
+  margin-top: 0.35rem;
+}
